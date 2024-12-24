@@ -19,7 +19,7 @@ const BackgroundMusic = () => {
       <audio
         id="christmas-music"
         loop
-        src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Jingle_Bells_%28orchestra%29.ogg"
+        src="/music.mp3"
       />
       <button
         onClick={toggleMusic}
