@@ -7,6 +7,7 @@ import BackgroundMusic from './components/BackgroundMusic';
 import ChristmasLights from './components/ChristmasLights';
 import Decorations from './components/Decorations';
 import MovingTree from './components/MovingTree';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <ChristmasTree />
         <GreetingCard />
       </div>
+      <Footer />
     </div>
   );
 }
